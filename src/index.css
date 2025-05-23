@@ -330,3 +330,72 @@ body {
   background-color: transparent;
   color: #000;
 }
+
+/* Base Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F5F5F5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: #1E90FF;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.button {
+  background-color: #28A745;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #218838;
+}
+
+/* Forms */
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #1E90FF;
+  outline: none;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #1E90FF;
+  padding: 10px 20px;
+}
+
+.navbar a {
+  color: #fff;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
